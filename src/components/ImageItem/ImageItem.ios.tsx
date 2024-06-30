@@ -126,6 +126,7 @@ const ImageItem = ({
         scrollEnabled={swipeToCloseEnabled}
         onScrollEndDrag={onScrollEndDrag}
         scrollEventThrottle={1}
+        contentInsetAdjustmentBehavior="never"
         {...(swipeToCloseEnabled && {
           onScroll,
         })}
